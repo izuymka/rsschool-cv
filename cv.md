@@ -5,6 +5,7 @@
 #### Senior Student 
 -----------------
 ### Contact Info:
+* **Location:** Saint Petersburg, Russia
 * **Phone:** +7 (911) 163-15-69
 * **Telegram:** https://t.me/frfrfrka
 * **E-mail:** mariya.mary1819@gmail.com
