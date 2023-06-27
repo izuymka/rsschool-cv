@@ -25,7 +25,7 @@
 + Internship in the IT company OOO "Digital Laboratory"  for the position of IT project coordinator - 2 months.
 + Participation in the hackathon "That hackathon" from Nexign x "Case Club" of Polytechnic University x Coworking "PROSTO"
 -----------------
-**Skills:**
+### Skills:
 - HTML5, CSS3
 - Git, GitHub
 - JS Basics, JQuery Library
@@ -34,7 +34,7 @@
 - Wrote an installer script for installing Dialog utilit, my web-site, Apache2 and ftpd servers for Debian
 - Wrote parsers to collect data from the site
 -----------------
-**Code:**
+### Code:
 <p>Codewars: Sum of a sequence (7 kyu)</p>
 
 ```
@@ -43,13 +43,14 @@ def sequence_sum(begin_number, end_number, step):
     return sum(ss)
 ```
 -----------------
-**University:**
+### University:
 <p>St. Petersburg State University of Telecommunications named after Prof. M. A. Bonch-Bruevich<br>
 Faculty: Information Systems and Technologies<br>
 2020-2024</p>
 
 -----------------
-**Cources:**
+### Cources:
 * "Python Generation": a [course](https://stepik.org/course/58852/info) for beginners;
-* "How to Project Management": University Course;
+* "How to Project Management": University Course.
 -----------------
+### Languages:
