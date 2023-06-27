@@ -1,3 +1,4 @@
+<img src="Photo.jpg" alt="My Photo" width="300px" height="auto">
 # Mariya Izyumova
 ### Junior Frontend Developer
 #### Senior Student 
@@ -24,7 +25,6 @@
 + Participation in the hackathon "That hackathon" from Nexign x "Case Club" of Polytechnic University x Coworking "PROSTO"
 -----------------
 **Skills:**
-
 - HTML5, CSS3
 - Git, GitHub
 - JS Basics, JQuery Library
@@ -33,3 +33,4 @@
 - Wrote an installer script for installing Dialog utilit, my web-site, Apache2 and ftpd servers for Debian
 - Wrote parsers to collect data from the site
 -----------------
+**Code:**
