@@ -1,5 +1,6 @@
 # Mariya Izyumova
 ### Junior Frontend Developer
+#### Senior Student 
 -----------------
 ### Contact Info:
 * **Phone:** +7 (911) 163-15-69
@@ -18,3 +19,8 @@
 2. Gaining experience in passing training technical interviews;
 3. Get new knowledge and consolidate old ones.
 
+**My work expirience:**
++ Internship in the IT company OOO "Digital Laboratory"  for the position of IT project coordinator - 2 months.
++ Participation in the hackathon "That hackathon" from Nexign x "Case Club" of Polytechnic University x Coworking "PROSTO"
+
+**Skills:**
