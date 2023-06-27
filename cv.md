@@ -1,4 +1,5 @@
 <img src="images/Photo.jpg" alt="My Photo" width="300px" height="auto">
+
 # Mariya Izyumova
 ### Junior Frontend Developer
 #### Senior Student 
