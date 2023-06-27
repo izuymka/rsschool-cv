@@ -11,4 +11,10 @@
 **Learning Goals:**
 1. First: get new theoretical and practical knowledge;
 2. Second: get into the community of charged and motivated people who study Frontend and want to become developers in further future;
-3. Third: have ready-made pet projects at the end of the course, get new emotions and have a good time
+3. Third: have ready-made pet projects at the end of the course, get new emotions and have a good time.
+
+**Priorites:**
+1. Practice, practice and ... practice :)
+2. Gaining experience in passing training technical interviews;
+3. Get new knowledge and consolidate old ones.
+
