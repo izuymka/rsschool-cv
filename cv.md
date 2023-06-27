@@ -36,6 +36,7 @@
 -----------------
 **Code:**
 <p>Codewars: Sum of a sequence (7 kyu)</p>
+
 ```
 def sequence_sum(begin_number, end_number, step):
     ss = [i for i in range(begin_number, end_number+1, step)]
