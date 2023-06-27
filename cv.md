@@ -50,7 +50,10 @@ Faculty: Information Systems and Technologies<br>
 
 -----------------
 ### Cources:
-* "Python Generation": a [course](https://stepik.org/course/58852/info) for beginners;
+* "Python Generation": a [course](https://stepik.org/course/58852/info) for beginners; <img src="images/Python-Certificate.png" alt="My Photo" width="auto" height="auto">
 * "How to Project Management": University Course.
 -----------------
 ### Languages:
+* **English:** form C1 Adnaced to C2 Proficient; <img src="images/EF-SET-Certificate.png" alt="EF SET Certificate" width="auto" height="auto">
+* **Russian:** Native;
+* **Ukranian** Basic.
