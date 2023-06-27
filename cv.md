@@ -43,4 +43,13 @@ def sequence_sum(begin_number, end_number, step):
     return sum(ss)
 ```
 -----------------
+**University:**
+<p>St. Petersburg State University of Telecommunications named after Prof. M. A. Bonch-Bruevich<br>
+Faculty: Information Systems and Technologies<br>
+2020-2024</p>
+
+-----------------
 **Cources:**
+* "Python Generation": a [course](https://stepik.org/course/58852/info) for beginners;
+* "How to Project Management": University Course;
+-----------------
