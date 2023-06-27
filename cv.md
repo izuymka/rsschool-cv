@@ -1,4 +1,4 @@
-<img src="Photo.jpg" alt="My Photo" width="300px" height="auto">
+<img src="images/Photo.jpg" alt="My Photo" width="300px" height="auto">
 # Mariya Izyumova
 ### Junior Frontend Developer
 #### Senior Student 
@@ -41,3 +41,4 @@ def sequence_sum(begin_number, end_number, step):
     return sum(ss)
 ```
 -----------------
+**Cources:**
