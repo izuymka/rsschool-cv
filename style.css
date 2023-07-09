@@ -27,7 +27,6 @@ a {
     font-weight: 400;
     color: #ffffff;
     text-decoration: none;
-    transition: .2 linear;
 }
 
 /* Main body style */
@@ -41,8 +40,8 @@ body {
 .main-wrapper {
     max-width: 1400px;
     margin: 0 auto;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Header Style Start */
