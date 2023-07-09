@@ -158,6 +158,11 @@ main {
     padding-bottom: 25px;
 }
 
+/* Main Info Wrapper Styled For Main Info Column*/
+.main-info_wrapper {
+    padding-bottom: 30px;
+}
+
 /* Styled Span For Contact Wrapper */
 .contacts_wrapper span {
     font-size: 15px;
