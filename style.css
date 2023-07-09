@@ -16,6 +16,12 @@ li {
     display: list-item;
 }
 
+pre {
+    margin: 0;
+    padding: 0;
+}
+
+
 a {
     font-size: 15px;
     font-weight: 400;
@@ -294,33 +300,70 @@ h3 {
 }
 
 /* Styled p Last Child Personal Info Section */
- .personal-info:last-child {
+.personal-info:last-child {
     padding-bottom: 25px;
- }
+}
 
- /* Styled h3 Work Title For Work Section */
- h3.work_title {
+/* Styled h3 Work Title For Work Section */
+h3.doc_title {
     margin-top: 30px;
     margin-bottom: 10px;
- }
+}
 
- /* Styled Work Date For Work Section */
- .work_date {
+/* Styled Work Date For Work Section */
+.doc_date {
     display: flex;
     align-items: center;
     font-weight: bold;
     margin-bottom: 5px;
- }
+}
 
- /* Styled Work Company For Work Section */
- .work_company {
+/* Styled Work Company For Work Section */
+.doc_company {
     margin-left: 15px;
     background-color: #e9e92c;
     border-radius: 15px;
     padding: 10px 10px;
- }
+}
+
+/* Styled a for Courses Section */
+.doc_date a {
+    font-weight: bold;
+    color: #171616;
+}
+
+/* Styled a href for Courses Section */
+.doc_date a:hover {
+    text-decoration: underline;
+}
 
 /* Styled Work Text For Work Section */
- .work_text {
+.doc_text {
     margin-bottom: 5px;
- }
+}
+
+/* Styled ing For Courses Section */
+.doc_text img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* Styled Code Title For Code Section */
+.code_title {
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+/* Styled Code Section */
+.code-block {
+    display: block;
+    text-align: right;
+    background-color: #e9e92c;
+    border-radius: 15px;
+    padding: 10px 10px;
+    font-family: Consolas, monospace;
+}
