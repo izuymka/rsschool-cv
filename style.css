@@ -287,11 +287,40 @@ h3 {
     color: #171616;
 }
 
-p {
+/* Styled p Personal Info Section */
+.personal-info {
     font-size: 20px;
     line-height: 1.4em;
 }
-/* Personal Info Text Section For Main Info Column */
-.personal_info_text {
-    padding-top: 10px;
-}
+
+/* Styled p Last Child Personal Info Section */
+ .personal-info:last-child {
+    padding-bottom: 25px;
+ }
+
+ /* Styled h3 Work Title For Work Section */
+ h3.work_title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+ }
+
+ /* Styled Work Date For Work Section */
+ .work_date {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+ }
+
+ /* Styled Work Company For Work Section */
+ .work_company {
+    margin-left: 15px;
+    background-color: #e9e92c;
+    border-radius: 15px;
+    padding: 10px 10px;
+ }
+
+/* Styled Work Text For Work Section */
+ .work_text {
+    margin-bottom: 5px;
+ }
