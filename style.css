@@ -7,11 +7,19 @@
     margin: 0;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    display: list-item;
+}
+
 a {
     font-size: 15px;
     font-weight: 400;
     color: #ffffff;
-    ;
     text-decoration: none;
     transition: .2 linear;
 }
@@ -27,6 +35,8 @@ body {
 .main-wrapper {
     max-width: 1400px;
     margin: 0 auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 
 /* Header Style Start */
@@ -34,23 +44,64 @@ header {
     display: flex;
     position: relative;
     width: 100%;
+    margin: 0 auto;
+}
+
+/* Navigation Inner in Header */
+.navigation_inner {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+    background-color: #171616;
+}
+
+/* Navigation Menu Width Container */
+.navigation_menu {
+    width: 100%;
+}
+
+/* Navigation List Flex */
+.navigation_list {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+/* Navigation Item In Navigation List */
+.navigation-item {
+    padding: 5px 15px;
+    margin-right: 10px;
+    color: #eeeeee;
+    transition: color 0.3s ease-in-out;
+    /* For smooth changing color */
+}
+
+/* Navigation Item Hover */
+.navigation-item a:hover {
+    color: #e9e92c;
 }
 
 /* Contacts Column Style (right) */
 .contacts-column {
     display: flex;
+    flex-direction: column;
     width: 30%;
     background-color: #171616;
     padding: 0 50px 0 40px;
 }
 
+
 /* Main Info Column Style (left) */
 .main_info-column {
     display: flex;
+    width: 70%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 70%;
     background-color: #eeeeee;
     padding: 0 30px;
 }
@@ -62,7 +113,7 @@ header {
     width: 250px;
     height: 250px;
     margin: 50px auto;
-    border: 8px solid #ffffff;
+    border: 8px solid #eeeeee;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -111,7 +162,7 @@ main {
 .contacts_wrapper span {
     font-size: 15px;
     font-weight: 400;
-    color: #ffffff;
+    color: #eeeeee;
 }
 
 /* Styled Contact Item In Contacts Wrapper */
@@ -122,6 +173,42 @@ main {
     align-items: start;
 }
 
+/* Styled li For Skills Section in Contact Item */
+.contact_item li.skills_element {
+    margin-bottom: 10px;
+    /* Add spacing between li elements */
+    padding-left: 30px;
+    position: relative;
+    color: #eeeeee;
+}
+
+.contact_item li.skills_element::before {
+    content: "#";
+    /* Add content for the custom list marker */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    /* Adjust the vertical positioning of the marker */
+    transform: translateY(-50%);
+    /* Center the marker vertically */
+    width: 20px;
+    /* Customize the width of the marker */
+    text-align: center;
+    color: #eeeeee;
+}
+
+
+/* Styled a href for Contact Item */
+.contact_item a:hover {
+    text-decoration: underline;
+    color: #e9e92c;
+}
+
+/* Styled Span For Contact Item */
+.contact_item span:hover {
+    color: #e9e92c;
+}
+
 /* Styled Img Icon In Contact Item Blocks */
 .contact_item img {
     width: 20px;
@@ -129,15 +216,10 @@ main {
     margin-right: 5px;
 }
 
-/* Styled Contact Item Li First Child In List */
-.contact_item li:first-child {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 /* Styled Contact Item Li */
 .contact_item li {
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 /* Styled Title For Column Titles In File */
