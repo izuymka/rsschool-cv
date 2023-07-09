@@ -40,8 +40,8 @@ body {
 .main-wrapper {
     max-width: 1400px;
     margin: 0 auto;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 
 /* Header Style Start */
