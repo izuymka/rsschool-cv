@@ -18,7 +18,7 @@ body {
     margin: 0 auto;
 }
 
-/* Header Style */
+/* Header Style Start */
 header {
     display: flex;
     position: relative;
@@ -27,9 +27,21 @@ header {
 
 /* Contacts Column Style (right) */
 .contacts-column {
-    width: 40%;
+    display: flex;
+    width: 25%;
     background-color: #171616;
-    padding: 30px;
+    padding: 10px;
+}
+
+/* Main Info Column Style (left) */
+.main_info-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    background-color: #eeeeee;
+    padding: 50px;
 }
 
 /* Contacts Column Avatar Style */
@@ -39,7 +51,7 @@ header {
     width: 250px;
     height: 250px;
     margin: 50px auto;
-    border: 8px solid #f8f8f8;
+    border: 8px solid #ffffff;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -49,4 +61,20 @@ header {
     object-fit: cover;
     width: 100%;
     height: auto;
+    outline: none;
 }
+
+/* Main Imfo Column h1 Style */
+.main_info-column h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Main Info Column h2 Style */
+.main_info-column h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+/* Header Style End */
