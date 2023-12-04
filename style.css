@@ -1,11 +1,8 @@
-/* Main body style */
-body {
-    font-family: Arial, sans-serif;
+/* Reset Default CSS Rules */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-
-/* h1,h2,h3,h4 reset default style */
-h1 {
-    text-align: center;
-    font-size: 30px;
-}
-
